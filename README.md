@@ -39,7 +39,8 @@ Current verification systems are plagued by privacy concerns, rampant fraud, and
 
 ## 📽 Demo
 
-- 🎥 *Video Link*: [https://drive.google.com/file/d/1CIMFqYvX5fZw8t4Zfh6GOhI8GtdTlwQX/view?usp=drivesdk]  
+- 🎥 *Video Link*: [https://drive.google.com/file/d/1CIMFqYvX5fZw8t4Zfh6GOhI8GtdTlwQX/view?usp=drivesdk]
+- [https://github.com/Rishal14/EduRaksha-Agent]
 
 
 ---
