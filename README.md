@@ -44,8 +44,8 @@ CivicChain is a modern React-based civic governance platform that leverages Zero
 
 ## 📽 Demo
 
-- 🎥 *Video Demo*: [youtube link](https://youtu.be/ClQnGPiqh8s?si=tav_rW4JaBhmH-9f)
-- 🖥 *Live App*: [https://civic-chain.vercel.app](https://civic-chain.vercel.app)
+- 🎥 *Video Demo*: [drive link](https://drive.google.com/file/d/1Kbo_LoFcXu3jxNypUExTNKVL7yJTTqLu/view?usp=sharing)
+
 - Github Repo: https://github.com/BishalJena/civic-chain
 ---
 
