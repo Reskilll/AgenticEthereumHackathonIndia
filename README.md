@@ -202,6 +202,12 @@ DB/Cache	PostgreSQL, Redis
 
 ---
 
+# Notion overview
+https://www.notion.so/22ea091db562802181afe18184eb6747
+https://www.notion.so/22ea091db56280c1af50d5246a9d81b3
+https://www.notion.so/22ea091db56280358b69de2705a45d62
+https://www.notion.so/22ea091db56280d696dffb0169e8f240
+
 ## 📂 Repository Structure
 
 ```bash
