@@ -3,6 +3,8 @@
 
 Welcome to our submission for the Agentic Ethereum Hackathon by Reskilll & Geodework! This repository includes our project code, documentation, and related assets.
 
+Main Repo Link : https://github.com/isid555/IND_CHAIN---JANA_NAYAGAN
+
 ## 📌 Problem Statement
 - Millions in India rely on informal finance — prone to scams, fees, and lack of transparency.
 - Chit funds are often run by private companies that charge organizing fees and may disappear with user money.
