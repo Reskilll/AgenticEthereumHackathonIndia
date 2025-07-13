@@ -49,13 +49,148 @@ Current verification systems are plagued by privacy concerns, rampant fraud, and
 
 ```bash
 .
-├── frontend/           # Frontend code
-├── backend/            # Backend code
-├── contracts/          # Smart contracts
-├── assets/             # PPT, video links, images
-├── docs/               # Architecture diagram, notes
-├── README.md           # A detailed description of your project
-├── .env.example
-├── package.json / requirements.txt
-├── yourppt.ppt
+GenZenius/
+├── frontend-next/
+│   ├── backend/
+│   │   ├── DEPLOYMENT.md
+│   │   ├── didkit-service.js
+│   │   ├── docker-compose.yml
+│   │   ├── Dockerfile
+│   │   ├── env.example
+│   │   ├── healthcheck.js
+│   │   ├── index.js
+│   │   ├── jest.config.js
+│   │   ├── middleware/
+│   │   │   ├── errorHandler.js
+│   │   │   └── validation.js
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── test/
+│   │       ├── api.test.js
+│   │       └── setup.js
+│   ├── components.json
+│   ├── contracts/
+│   │   ├── CredentialRegistry.sol
+│   │   ├── EduRakshaVerifier.sol
+│   │   ├── EnhancedCredentialRegistry.sol
+│   │   ├── ENSVerifier.sol
+│   │   ├── IssuerTrust.sol
+│   │   ├── Lock.sol
+│   │   └── SemaphoreVerifier.sol
+│   ├── eslint.config.mjs
+│   ├── GOOGLE_API_SETUP.md
+│   ├── LOGIN_SETUP.md
+│   ├── next.config.ts
+│   ├── OLLAMA_SETUP.md
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.mjs
+│   ├── public/
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── next.svg
+│   │   ├── vercel.svg
+│   │   └── window.svg
+│   ├── README.md
+│   ├── scripts/
+│   │   └── test-translation.js
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── ai-test/
+│   │   │   │   └── page.tsx
+│   │   │   ├── api/
+│   │   │   │   ├── auth/
+│   │   │   │   │   └── [...nextauth]/
+│   │   │   │   │       └── route.ts
+│   │   │   │   ├── issuer-info/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── scholarships/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── translate/
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── vertex-ai/
+│   │   │   │       └── route.ts
+│   │   │   ├── auth/
+│   │   │   │   └── signin/
+│   │   │   │       └── page.tsx
+│   │   │   ├── blockchain-test/
+│   │   │   ├── chat/
+│   │   │   ├── dashboard/
+│   │   │   │   └── page.tsx
+│   │   │   ├── didkit-demo/
+│   │   │   │   └── page.tsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── income-test/
+│   │   │   │   └── page.tsx
+│   │   │   ├── issuer/
+│   │   │   │   └── page.tsx
+│   │   │   ├── layout.tsx
+│   │   │   ├── ocr-test/
+│   │   │   │   └── page.tsx
+│   │   │   ├── page.tsx
+│   │   │   ├── scholarship/
+│   │   │   │   ├── application/
+│   │   │   │   │   └── [id]/
+│   │   │   │   │       └── page.tsx
+│   │   │   │   ├── dashboard/
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── page.tsx
+│   │   │   ├── scholarship-enhanced/
+│   │   │   │   └── page.tsx
+│   │   │   ├── ssi-wallet/
+│   │   │   │   └── page.tsx
+│   │   │   ├── translation-test/
+│   │   │   │   └── page.tsx
+│   │   │   ├── verifier/
+│   │   │   │   └── page.tsx
+│   │   │   ├── verify/
+│   │   │   │   └── page.tsx
+│   │   │   ├── wallet/
+│   │   │   │   └── page.tsx
+│   │   │   └── zkp-generator/
+│   │   │       └── page.tsx
+│   │   ├── components/
+│   │   │   ├── AgentChat.tsx
+│   │   │   ├── AuthButtons.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Providers.tsx
+│   │   │   ├── ui/
+│   │   │   │   ├── avatar.tsx
+│   │   │   │   ├── badge.tsx
+│   │   │   │   ├── button.tsx
+│   │   │   │   ├── card.tsx
+│   │   │   │   ├── dropdown-menu.tsx
+│   │   │   │   ├── input.tsx
+│   │   │   │   ├── label.tsx
+│   │   │   │   ├── progress.tsx
+│   │   │   │   ├── select.tsx
+│   │   │   │   ├── separator.tsx
+│   │   │   │   ├── tabs.tsx
+│   │   │   │   └── textarea.tsx
+│   │   │   └── VCCard.tsx
+│   │   ├── lib/
+│   │   │   ├── ai-assistant.ts
+│   │   │   ├── blockchain-config.ts
+│   │   │   ├── blockchain-service.ts
+│   │   │   ├── certificate-processor.ts
+│   │   │   ├── didkit-service.ts
+│   │   │   ├── ollama-config.ts
+│   │   │   ├── scholarship-scraper.ts
+│   │   │   ├── ssi-wallet.ts
+│   │   │   ├── translation-service.ts
+│   │   │   ├── use-blockchain.ts
+│   │   │   ├── utils.ts
+│   │   │   ├── vc-utils.ts
+│   │   │   ├── vertex-ai-assistant.ts
+│   │   │   ├── vertex-ai-service.ts
+│   │   │   └── zkp-generator.ts
+│   │   └── pages/
+│   │       └── api/
+│   │           └── auth/
+│   ├── TRANSLATION_SETUP.md
+│   └── tsconfig.json
+└── README.md
+
 
